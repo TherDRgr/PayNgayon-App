@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/payngayon-app/static/css/main.f3d8062a.css",
-    "main.js": "/payngayon-app/static/js/main.41b8c111.js",
+    "main.js": "/payngayon-app/static/js/main.8a673656.js",
     "static/media/card.jpg": "/payngayon-app/static/media/card.141fc8f4495095d026bf.jpg",
     "index.html": "/payngayon-app/index.html",
     "main.f3d8062a.css.map": "/payngayon-app/static/css/main.f3d8062a.css.map",
-    "main.41b8c111.js.map": "/payngayon-app/static/js/main.41b8c111.js.map"
+    "main.8a673656.js.map": "/payngayon-app/static/js/main.8a673656.js.map"
   },
   "entrypoints": [
     "static/css/main.f3d8062a.css",
-    "static/js/main.41b8c111.js"
+    "static/js/main.8a673656.js"
   ]
 }
