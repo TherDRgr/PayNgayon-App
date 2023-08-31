@@ -1,7 +1,7 @@
 {
   "name": "payngayon-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "http://therdrgr.github.io/payngayon-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
