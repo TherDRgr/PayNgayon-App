@@ -1,0 +1,136 @@
+.user-list-div {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.user-popup-div {
+    position: relative;
+    background: rgba(150, 150, 150, 0.8);
+    height: calc(100% - 60px);
+}
+
+.popup-overlay-div {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.user-list-header,
+.user-list-header-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-list-header {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.user-list-header-left {
+    align-items: center;
+}
+
+.searchbar {
+    margin-right: 1em;
+    padding: 0.3rem;
+}
+
+.user-list-title {
+    font-size: 2em;
+    color: #2FF29E;
+}
+
+.user-list-back:hover {
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.fa-plus {
+    margin-right: 0.3rem;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.create-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+}
+
+.create-btn:hover {
+    cursor: pointer;
+}
+
+.user-table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.user-table td,
+.user-table th {
+    text-align: center;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    padding: 0.3rem 0;
+}
+
+.id,
+.user-name,
+.user-email,
+.user-cn {
+    border-right: rgb(255, 255, 255) solid 1px;
+}
+
+.id {
+    width: 40px;
+}
+
+.selected-user {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    color: black;
+}
+
+.user-row:hover {
+    background: #acffdb88;
+    cursor: pointer;
+}
+
+.selected,
+.selected:hover {
+    background: #2FF29dc0;
+}
+
+
+.user-list-div a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2ff29dc0;
+    background: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+}
+
+.user-list-div a:hover {
+    background: rgb(0, 0, 0);
+    color: #acffdb;
+    cursor: pointer;
+}
+
+.user-list-div a:active {
+    background: rgb(0, 0, 0);
+    color: #acffdb;
+}

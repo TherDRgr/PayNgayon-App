@@ -1,0 +1,67 @@
+.create-user {
+    border-radius: 15px;
+    padding: 40px;
+    display: grid;
+    gap: 2rem;
+    width: 100%;
+    max-width: 400px;
+    background-color: black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.create-user div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.create-user label {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.create-user input {
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-bottom: black solid 1px;
+}
+
+.create-user button {
+    justify-self: center;
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+.create-user button:hover {
+    cursor: pointer;
+}
+
+.create-user input:focus {
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+.fa-xmark {
+    border-radius: 50px;
+    padding: 0.4rem 0.6rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.fa-xmark:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.create-user .invalid {
+    color: red;
+}

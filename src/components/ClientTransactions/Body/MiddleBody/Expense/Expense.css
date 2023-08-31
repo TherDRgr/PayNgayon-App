@@ -1,0 +1,197 @@
+.form-header {
+    text-align: center;
+    color: #2FF29E;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.add-expense-div {
+    height: calc(100% - 60px);
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "add chart"
+                        "list list";
+}
+
+.add-expense-div form {
+    grid-area: add;
+}
+
+.add-expense-div label{
+    color: #2FF29E;
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-container .inputContainer {
+    width: 50%;
+}
+
+.add-expense-div select,
+.add-expense-div input {
+    color: #2FF29E;
+    font-size: 1.2em;
+    background-color: rgba(0, 34, 18, 0.3);
+}
+
+.add-expense-div select {
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 14, 7, 0.8);
+}
+
+.add-expense-div select:hover {
+    cursor: pointer;
+}
+
+.add-expense-div textarea {
+    border: #2FF29E;
+    color: #2FF29E;
+    resize: none;
+    font-size: 1em;
+    padding: 0.5rem;
+    background-color: rgba(0, 34, 18, 0.3);
+}
+
+.expense-list-div {
+    grid-area: list;
+    overflow-y: auto;
+    max-height: 30vh;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.expense-list {
+    overflow-y: auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.expense-list th{
+    font-size: 1em;
+}
+
+.expense-list td {
+    font-size: 1.1em;
+}
+
+.expense-list td,
+.expense-list th {
+    border-bottom: white 1px solid;
+    padding: 0.5rem 0;
+}
+
+.expense-chart {
+    grid-area: chart;
+    display: flex;
+    justify-content: center;
+}
+
+.expense-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.expense-actions .fa-solid {
+    background: #2FF29E;
+    color: black;
+    font-weight: 400;
+    padding: 0.4rem;
+    border-radius: 10px;
+}
+
+.expense-actions .fa-solid:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.expense-actions .fa-solid:active {
+    background: black;
+    color: white;
+}
+
+.update-popup-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.update-form {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #2FF29E;
+    padding: 1.5rem;
+    padding-top: 2rem;
+    position: absolute;
+    max-width: 37.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.75fr 1fr 0.35fr;
+    grid-template-areas: "date cost type"
+                        "desc desc desc"
+                        "button button button";
+}
+
+.update-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-form label {
+    font-weight: 600;
+}
+
+.update-form .fa-xmark {
+    position: absolute;
+}
+
+.update-date {
+    grid-area: date;
+}
+
+.update-cost {
+    grid-area: cost;
+}
+
+.update-type {
+    grid-area: type;
+}
+
+.update-desc {
+    grid-area: desc;
+}
+
+.update-desc textarea {
+    color: black;
+    background-color: white;
+}
+
+.update-form .button {
+    position: relative;
+    margin-top: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    grid-area: button;
+}

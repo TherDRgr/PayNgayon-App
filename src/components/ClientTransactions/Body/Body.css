@@ -1,0 +1,26 @@
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 60px);
+    position: relative;
+    min-width: 1200px;
+}
+
+.leftBodyContainer {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 15% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.middleBodyContainer {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 63% !important;
+}
+
+.rightBodyContainer {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 25% !important;
+}

@@ -1,0 +1,32 @@
+.myCard {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.cardInfo {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.cardDetailsContainer {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardDetailLabel {
+    flex: 2;
+}
+
+.cardDetailActual {
+    flex: 1;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}

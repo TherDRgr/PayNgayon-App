@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #000000;
+    color: #2FF29E;
+}
+
+.leftContainer {
+    font-size: 1.5em;
+    width: 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.middleContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+.rightContainer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.rightContainer div {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5rem 1rem;
+}
+
+.initialContainer {
+    background-color: #2FF29E;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initials {
+    color: #000000;
+}
+
+.initialContainer .initials {
+    overflow: visible;
+    padding: 0;
+}
+
+.greeting {
+    padding: 0 !important;
+}
+
+.rightContainer a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2FF29E;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1rem;
+}
+
+.rightContainer a:hover {
+    background: #2FF29E;
+    color: #000000;
+    cursor: pointer;
+}
+
+.rightContainer a:active {
+    background: #2FF29E;
+    color: #2FF29E;
+}
